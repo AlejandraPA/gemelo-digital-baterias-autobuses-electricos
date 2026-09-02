@@ -1,0 +1,11 @@
+folium
+geopandas>=1.0
+matplotlib
+numpy
+openpyxl
+osmnx
+pandas>=2.1
+requests
+shapely>=2.0
+streamlit
+streamlit-folium
