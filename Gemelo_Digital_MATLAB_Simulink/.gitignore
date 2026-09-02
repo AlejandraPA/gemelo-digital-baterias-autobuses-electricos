@@ -1,0 +1,46 @@
+# ============================================================
+# Datos de entrada no distribuidos
+# ============================================================
+
+datos_entrada/full_soc/*
+!datos_entrada/full_soc/.gitkeep
+
+datos_entrada/jaltest/*
+!datos_entrada/jaltest/.gitkeep
+
+
+# ============================================================
+# Resultados generados
+# ============================================================
+
+resultados/modelo_energetico/*
+!resultados/modelo_energetico/.gitkeep
+
+resultados/prediccion_autonomia/*
+!resultados/prediccion_autonomia/.gitkeep
+
+resultados/supervision_indicadores/*
+!resultados/supervision_indicadores/.gitkeep
+
+resultados/escenarios/*
+!resultados/escenarios/.gitkeep
+
+
+# ============================================================
+# Archivos temporales de MATLAB / Simulink
+# ============================================================
+
+*.asv
+*.autosave
+*.slxc
+*.m~
+slprj/
+codegen/
+
+
+# ============================================================
+# Archivos del sistema
+# ============================================================
+
+.DS_Store
+Thumbs.db
