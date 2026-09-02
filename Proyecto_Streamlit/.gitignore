@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables y secretos
+.env
+.streamlit/secrets.toml
+
+# IDE / sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de Office
+~$*.xlsx
+~$*.xls
+~$*.docx
+
+# Datos de operación privados
+datos_entrada/jaltest/*
+!datos_entrada/jaltest/.gitkeep
+
+datos_entrada/soc/*
+!datos_entrada/soc/.gitkeep
+
+datos_entrada/full_soc/*
+!datos_entrada/full_soc/.gitkeep
+
+# Resultados generados localmente
+resultados/*
+!resultados/analisis_ruta/
+
+resultados/analisis_ruta/*
+!resultados/analisis_ruta/.gitkeep
